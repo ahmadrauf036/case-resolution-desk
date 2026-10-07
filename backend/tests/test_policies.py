@@ -1,6 +1,6 @@
 from datetime import date
 
-from app.retrievel import CURRENT, SUPERSEDED, load_documents
+from app.retrieval import CURRENT, SUPERSEDED, load_documents
 
 
 def _by_id():

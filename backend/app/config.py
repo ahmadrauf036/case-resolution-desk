@@ -16,3 +16,5 @@ CORS_ORIGIN = os.getenv("CORS_ORIGIN", "http://localhost:5173")
 
 # Assessment date; individual cases may override it.
 DEFAULT_CASE_DATE = date.fromisoformat(os.getenv("CASE_DATE", "2026-10-07"))
+
+GROQ_URL = os.getenv("GROQ_URL", "https://api.groq.com/openai/v1/chat/completions")
